@@ -1,5 +1,3 @@
-/*global module */
-
 /*
  * grunt-xmlmin
  * https://github.com/dtrunk90/grunt-xmlmin

@@ -1,5 +1,3 @@
-/*global require, exports */
-
 var grunt = require('grunt');
 
 exports.xmlmin = {
