@@ -48,20 +48,13 @@ grunt.initConfig({
                 preserveComments: true
             },
             files: {                                     // Dictionary of files
-                'dist/index.html': 'src/index.html',     // 'destination': 'source'
-                'dist/contact.html': 'src/contact.html'
-            }
-        },
-        dev: {                                           // Another target
-            files: {
-                'dist/index.html': 'src/index.html',
-                'dist/contact.html': 'src/contact.html'
+                'dist/books.xml': 'src/books.xml',       // 'destination': 'source'
             }
         }
     }
 });
 
-grunt.registerTask('default', ['htmlmin']);
+grunt.registerTask('default', ['xmlmin']);
 ```
 
 
@@ -73,4 +66,4 @@ grunt.registerTask('default', ['htmlmin']);
 
 Task submitted by [Danny Trunk](http://github.com/dtrunk90)
 
-*This file was generated on Mon Apr 15 2013 16:07:44.*
+*This file was generated on Tue Apr 16 2013 11:21:45.*
