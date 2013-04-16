@@ -2,6 +2,8 @@
 
 > Minify XML
 
+
+
 ## Getting Started
 This plugin requires Grunt `~0.4.1`
 
@@ -11,44 +13,64 @@ If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out th
 npm install grunt-xmlmin --save-dev
 ```
 
-One the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
+Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
 grunt.loadNpmTasks('grunt-xmlmin');
 ```
 
-## The "xmlmin" task
 
-### Overview
-In your project's Gruntfile, add a section named `xmlmin` to the data object passed into `grunt.initConfig()`.
 
-```js
+
+## Xmlmin task
+_Run this task with the `grunt xmlmin` command._
+
+Minifies XML using [pretty-data](https://github.com/vkiryukhin/pretty-data). Bugs regarding the output should be reported [here](https://github.com/vkiryukhin/pretty-data/issues/new).
+
+### Options
+
+See the [pretty-data docs](http://www.eslinstructor.net/pretty-data/) for more in-depth explanation of the options and caveats.
+
+#### preserveComments
+
+Type: `Boolean`  
+Default: `false`
+
+Preserve XML comments.
+
+#### Example
+
+```javascript
 grunt.initConfig({
-  xmlmin: {
-    your_target: {
-      // Target-specific file lists go here.
-    },
-  },
-})
-```
-
-### Usage Example
-
-```js
-grunt.initConfig({
-  xmlmin: {
-    files: {
-      'dest/books.xml': ['src/books.xml'],
-    },
-  },
+    xmlmin: {                                            // Task
+        dist: {                                          // Target
+            options: {                                   // Target options
+                preserveComments: true
+            },
+            files: {                                     // Dictionary of files
+                'dist/index.html': 'src/index.html',     // 'destination': 'source'
+                'dist/contact.html': 'src/contact.html'
+            }
+        },
+        dev: {                                           // Another target
+            files: {
+                'dist/index.html': 'src/index.html',
+                'dist/contact.html': 'src/contact.html'
+            }
+        }
+    }
 });
 
-grunt.registerTask('default', ['xmlmin']);
+grunt.registerTask('default', ['htmlmin']);
 ```
 
-## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
 
  * 2013-04-15   v0.1.0   Initial release.
+
+---
+
+Task submitted by [Danny Trunk](http://github.com/dtrunk90)
+
+*This file was generated on Mon Apr 15 2013 16:07:44.*

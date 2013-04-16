@@ -15,6 +15,10 @@ module.exports = function(grunt) {
         helper = require('grunt-lib-contrib').init(grunt);
 
     grunt.registerMultiTask('xmlmin', 'Minify XML', function() {
+        var options = this.options({
+			preserveComments: false
+		});
+
         this.files.forEach(function (file) {
             var min,
                 max = file.src.filter(function(filepath) {
@@ -30,7 +34,7 @@ module.exports = function(grunt) {
                     .join(grunt.util.normalizelf(grunt.util.linefeed));
 
             try {
-                min = pd.xml(max);
+                min = pd.xmlmin(max, options.preserveComments);
             } catch (err) {
                 grunt.warn(file.src + '\n' + err);
             }
