@@ -1,4 +1,4 @@
-# grunt-xmlmin
+# grunt-xmlmin [![Build Status](https://secure.travis-ci.org/dtrunk90/grunt-xmlmin.png?branch=master)](http://travis-ci.org/dtrunk90/grunt-xmlmin)
 
 > Minify XML
 
