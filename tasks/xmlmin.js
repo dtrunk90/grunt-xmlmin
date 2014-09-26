@@ -10,7 +10,7 @@ module.exports = function(grunt) {
     'use strict';
 
     var pd = require('pretty-data').pd,
-        helper = require('grunt-lib-contrib').init(grunt);
+        maxmin = require('maxmin');
 
     grunt.registerMultiTask('xmlmin', 'Minify XML', function() {
         var options = this.options({
@@ -42,7 +42,7 @@ module.exports = function(grunt) {
             } else {
                 grunt.file.write(file.dest, min);
                 grunt.log.writeln('File "' + file.dest + '" created.');
-                helper.minMaxInfo(min, max);
+                console.log(maxmin(min, max, false));
             }
         });
     });
