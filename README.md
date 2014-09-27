@@ -1,4 +1,4 @@
-# grunt-xmlmin v0.1.2 [![Build Status: Linux](https://travis-ci.org/dtrunk90/grunt-xmlmin.png?branch=master)](https://travis-ci.org/dtrunk90/grunt-xmlmin)
+# grunt-xmlmin v0.1.3 [![Build Status: Linux](https://travis-ci.org/dtrunk90/grunt-xmlmin.png?branch=master)](https://travis-ci.org/dtrunk90/grunt-xmlmin)
 
 > Minify XML
 
@@ -60,6 +60,7 @@ grunt.registerTask('default', ['xmlmin']);
 
 ## Release History
 
+ * 2014-09-27   v0.1.3   Fixed CHANGELOG syntax and updated README.md
  * 2014-09-23   v0.1.2   Fixes Issue 1 Updated dependency versions
  * 2013-04-15   v0.1.1   Initial release.
 
@@ -67,4 +68,4 @@ grunt.registerTask('default', ['xmlmin']);
 
 Task submitted by [Danny Trunk](http://github.com/dtrunk90)
 
-*This file was generated on Sat Sep 27 2014 12:47:09.*
+*This file was generated on Sat Sep 27 2014 12:50:47.*
