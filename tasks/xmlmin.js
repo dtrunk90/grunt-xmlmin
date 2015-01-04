@@ -42,7 +42,7 @@ module.exports = function(grunt) {
             } else {
                 grunt.file.write(file.dest, min);
                 grunt.log.writeln('File "' + file.dest + '" created.');
-                console.log(maxmin(min, max, false));
+                console.log(maxmin(max, min, false));
             }
         });
     });
