@@ -1,3 +1,10 @@
+v0.1.4:
+    date: 2015-01-08
+    changes:
+        - Normalize package.json
+        - Remove obsolete JSHint option
+        - Regenerate README.md
+        - Fix call to maxmin
 v0.1.3:
     date: 2014-09-27
     changes:
