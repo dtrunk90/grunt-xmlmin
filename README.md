@@ -25,7 +25,7 @@ grunt.loadNpmTasks('grunt-xmlmin');
 ## Xmlmin task
 _Run this task with the `grunt xmlmin` command._
 
-Minifies XML using [pretty-data](https://github.com/vkiryukhin/pretty-data). Bugs regarding the output should be reported [here](https://github.com/vkiryukhin/pretty-data/issues/new).
+Minifies XML using [pretty-data](https://github.com/vkiryukhin/pretty-data). **Bugs regarding the output should be reported [here](https://github.com/vkiryukhin/pretty-data/issues/new)**.
 
 ### Options
 
@@ -40,15 +40,15 @@ Preserve XML comments.
 
 #### Example
 
-```javascript
+```js
 grunt.initConfig({
-    xmlmin: {                                            // Task
-        dist: {                                          // Target
-            options: {                                   // Target options
+    xmlmin: {                                       // Task
+        dist: {                                     // Target
+            options: {                              // Target options
                 preserveComments: true
             },
-            files: {                                     // Dictionary of files
-                'dist/books.xml': 'src/books.xml',       // 'destination': 'source'
+            files: {                                // Dictionary of files
+                'dist/books.xml': 'src/books.xml'   // 'destination': 'source'
             }
         }
     }
@@ -60,13 +60,13 @@ grunt.registerTask('default', ['xmlmin']);
 
 ## Release History
 
- * 2015-01-08   v0.1.4   Normalize package.json Remove obsolete JSHint option Regenerate README.md Fix call to maxmin
- * 2014-09-27   v0.1.3   Fixed CHANGELOG syntax and updated README.md
- * 2014-09-23   v0.1.2   Fixes Issue 1 Updated dependency versions
+ * 2015-01-08   v0.1.4   Normalize package.json. Remove obsolete JSHint option. Regenerate README.md. Fix call to maxmin.
+ * 2014-09-27   v0.1.3   Fixed CHANGELOG syntax and updated README.md.
+ * 2014-09-23   v0.1.2   Fixes Issue 1. Updated dependency versions.
  * 2013-04-15   v0.1.1   Initial release.
 
 ---
 
 Task submitted by [Danny Trunk](http://github.com/dtrunk90)
 
-*This file was generated on Fri Jan 09 2015 21:02:23.*
+*This file was generated on Fri May 01 2015 00:30:26.*

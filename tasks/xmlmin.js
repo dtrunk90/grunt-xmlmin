@@ -6,8 +6,9 @@
  * Licensed under the MIT license.
  */
 
+'use strict';
+
 module.exports = function(grunt) {
-    'use strict';
 
     var pd = require('pretty-data').pd,
         maxmin = require('maxmin');
