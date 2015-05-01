@@ -6,9 +6,9 @@
  * Licensed under the MIT license.
  */
 
-module.exports = function(grunt) {
-    'use strict';
+'use strict';
 
+module.exports = function(grunt) {
     grunt.initConfig({
         jshint: {
             all: [

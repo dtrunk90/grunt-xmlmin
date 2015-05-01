@@ -1,9 +1,9 @@
+'use strict';
+
 var grunt = require('grunt');
 
 exports.xmlmin = {
     compile: function (test) {
-        'use strict';
-
         test.expect(1);
 
         var actual = grunt.file.read('tmp/test.xml'),
@@ -13,8 +13,6 @@ exports.xmlmin = {
         test.done();
     },
     multiple: function (test) {
-        'use strict';
-
         test.expect(1);
 
         var actual = grunt.file.read('tmp/multiple.xml'),
@@ -24,8 +22,6 @@ exports.xmlmin = {
         test.done();
     },
     empty: function (test) {
-        'use strict';
-
         test.expect(1);
 
         test.ok(!grunt.file.exists('tmp/idontexist.xml'), 'Empty minified file should not exist');

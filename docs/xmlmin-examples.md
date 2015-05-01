@@ -1,14 +1,14 @@
 ## Example
 
-```javascript
+```js
 grunt.initConfig({
-    xmlmin: {                                            // Task
-        dist: {                                          // Target
-            options: {                                   // Target options
+    xmlmin: {                                       // Task
+        dist: {                                     // Target
+            options: {                              // Target options
                 preserveComments: true
             },
-            files: {                                     // Dictionary of files
-                'dist/books.xml': 'src/books.xml',       // 'destination': 'source'
+            files: {                                // Dictionary of files
+                'dist/books.xml': 'src/books.xml'   // 'destination': 'source'
             }
         }
     }
