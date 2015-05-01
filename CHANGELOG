@@ -1,9 +1,13 @@
+v0.1.6:
+    date: 2015-05-01
+    changes:
+        - Use chalk for coloring terminal.
 v0.1.5:
     date: 2015-05-01
     changes:
         - Update dependencies.
         - Update Travis CI config.
-        - Update xmlmin.js
+        - Show the file difference in one line.
         - Minor cleanup.
 v0.1.4:
     date: 2015-01-08
