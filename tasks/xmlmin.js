@@ -13,9 +13,7 @@ module.exports = function(grunt) {
         maxmin = require('maxmin');
 
     grunt.registerMultiTask('xmlmin', 'Minify XML', function() {
-        var options = this.options({
-			preserveComments: false
-		});
+        var options = this.options({ preserveComments: false });
 
         this.files.forEach(function (file) {
             var min,
@@ -41,8 +39,7 @@ module.exports = function(grunt) {
                 grunt.log.warn('Destination not written because minified XML was empty.');
             } else {
                 grunt.file.write(file.dest, min);
-                grunt.log.writeln('File "' + file.dest + '" created.');
-                console.log(maxmin(max, min, false));
+                grunt.log.writeln('File ' + file.dest + ' created: ' + maxmin(max, min, false));
             }
         });
     });
