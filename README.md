@@ -1,4 +1,4 @@
-# grunt-xmlmin v0.1.4 [![Build Status: Linux](https://travis-ci.org/dtrunk90/grunt-xmlmin.svg?branch=master)](https://travis-ci.org/dtrunk90/grunt-xmlmin)
+# grunt-xmlmin v0.1.5 [![Build Status: Linux](https://travis-ci.org/dtrunk90/grunt-xmlmin.svg?branch=master)](https://travis-ci.org/dtrunk90/grunt-xmlmin)
 
 > Minify XML
 
@@ -60,6 +60,7 @@ grunt.registerTask('default', ['xmlmin']);
 
 ## Release History
 
+ * 2015-05-01   v0.1.5   Update dependencies. Update Travis CI config. Update xmlmin.js Minor cleanup.
  * 2015-01-08   v0.1.4   Normalize package.json. Remove obsolete JSHint option. Regenerate README.md. Fix call to maxmin.
  * 2014-09-27   v0.1.3   Fixed CHANGELOG syntax and updated README.md.
  * 2014-09-23   v0.1.2   Fixes Issue 1. Updated dependency versions.
@@ -69,4 +70,4 @@ grunt.registerTask('default', ['xmlmin']);
 
 Task submitted by [Danny Trunk](http://github.com/dtrunk90)
 
-*This file was generated on Fri May 01 2015 00:30:26.*
+*This file was generated on Fri May 01 2015 19:24:47.*

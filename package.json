@@ -1,7 +1,7 @@
 {
   "name": "grunt-xmlmin",
   "description": "Minify XML",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "homepage": "https://github.com/dtrunk90/grunt-xmlmin",
   "author": "Danny Trunk <dtrunk90@gmail.com>",
   "repository": {

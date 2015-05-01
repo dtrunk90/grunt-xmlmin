@@ -1,3 +1,10 @@
+v0.1.5:
+    date: 2015-05-01
+    changes:
+        - Update dependencies.
+        - Update Travis CI config.
+        - Update xmlmin.js
+        - Minor cleanup.
 v0.1.4:
     date: 2015-01-08
     changes:
