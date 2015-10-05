@@ -1,3 +1,9 @@
+v0.1.7:
+    date: 2015-10-05
+    changes:
+        - Update chalk.
+        - Travis CI test against node.js 4.
+        - Add JSHint target to test target.
 v0.1.6:
     date: 2015-05-01
     changes:

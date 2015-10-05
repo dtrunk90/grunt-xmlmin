@@ -1,4 +1,4 @@
-# grunt-xmlmin v0.1.6 [![Build Status: Linux](https://travis-ci.org/dtrunk90/grunt-xmlmin.svg?branch=master)](https://travis-ci.org/dtrunk90/grunt-xmlmin)
+# grunt-xmlmin v0.1.6 [![Build Status: Linux](https://travis-ci.orggit+/dtrunk90/grunt-xmlmin.svg?branch=master)](https://travis-ci.orggit+/dtrunk90/grunt-xmlmin)
 
 > Minify XML
 
@@ -60,6 +60,7 @@ grunt.registerTask('default', ['xmlmin']);
 
 ## Release History
 
+ * 2015-10-05   v0.1.7   Update chalk. Travis CI test against node.js 4. Add JSHint target to test target.
  * 2015-05-01   v0.1.6   Use chalk for coloring terminal.
  * 2015-05-01   v0.1.5   Update dependencies. Update Travis CI config. Show the file difference in one line. Minor cleanup.
  * 2015-01-08   v0.1.4   Normalize package.json. Remove obsolete JSHint option. Regenerate README.md. Fix call to maxmin.
@@ -71,4 +72,4 @@ grunt.registerTask('default', ['xmlmin']);
 
 Task submitted by [Danny Trunk](http://github.com/dtrunk90)
 
-*This file was generated on Fri May 01 2015 20:43:31.*
+*This file was generated on Mon Oct 05 2015 13:18:47.*
