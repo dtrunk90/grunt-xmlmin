@@ -1,4 +1,4 @@
-# grunt-xmlmin v0.1.6 [![Build Status: Linux](https://travis-ci.orggit+/dtrunk90/grunt-xmlmin.svg?branch=master)](https://travis-ci.orggit+/dtrunk90/grunt-xmlmin)
+# grunt-xmlmin v0.1.6 [![Build Status: Linux](https://travis-ci.org/dtrunk90/grunt-xmlmin.svg?branch=master)](https://travis-ci.org/dtrunk90/grunt-xmlmin)
 
 > Minify XML
 
