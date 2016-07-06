@@ -1,11 +1,10 @@
-# grunt-xmlmin v0.1.6 [![Build Status: Linux](https://travis-ci.org/dtrunk90/grunt-xmlmin.svg?branch=master)](https://travis-ci.org/dtrunk90/grunt-xmlmin)
+# grunt-xmlmin v0.1.7 [![Build Status: Linux](https://travis-ci.org/dtrunk90/grunt-xmlmin.svg?branch=master)](https://travis-ci.org/dtrunk90/grunt-xmlmin)
 
 > Minify XML
 
 
 
 ## Getting Started
-This plugin requires Grunt `>=0.4.0`
 
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
@@ -25,7 +24,9 @@ grunt.loadNpmTasks('grunt-xmlmin');
 ## Xmlmin task
 _Run this task with the `grunt xmlmin` command._
 
-Minifies XML using [pretty-data](https://github.com/vkiryukhin/pretty-data). **Bugs regarding the output should be reported [here](https://github.com/vkiryukhin/pretty-data/issues/new)**.
+Minifies XML using [pretty-data](https://github.com/vkiryukhin/pretty-data).
+
+**Bugs regarding the output should be reported [here](https://github.com/vkiryukhin/pretty-data/issues/new)**.
 
 ### Options
 
@@ -70,6 +71,6 @@ grunt.registerTask('default', ['xmlmin']);
 
 ---
 
-Task submitted by [Danny Trunk](http://github.com/dtrunk90)
+Task submitted by [Danny Trunk](https://github.com/dtrunk90)
 
-*This file was generated on Mon Oct 05 2015 13:18:47.*
+*This file was generated on Wed Jul 06 2016 16:47:49.*
